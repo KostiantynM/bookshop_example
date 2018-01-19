@@ -1,0 +1,20 @@
+{
+	"development": {
+		"apiPrefix": "http://localhost",
+		"serverPort": "3030",
+		"db": {
+			"name": "bookshop",
+			"host": "localhost",
+			"port": 27017
+		}
+	},
+	"production": {
+		"apiPrefix": "http://localhost",
+		"serverPort": "3030",
+		"db": {
+			"name": "bookshop",
+			"host": "localhost",
+			"port": 27017
+		}
+	}
+}
