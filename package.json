@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "webpack & node ./bin/www & node ./apiServer",
+    "start": "babel-node ./bin/www & babel-node ./apiServer",
+    "start-secomd": "node ./bin/www & node ./apiServer",
     "development": "clear; webpack & nodemon ./bin/www --exec babel-node & nodemon ./apiServer --exec babel-node",
     "api-server-start": "nodemon ./apiServer --exec babel-node"
   },
