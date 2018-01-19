@@ -8,6 +8,12 @@
     "api-server-start": "nodemon ./apiServer --exec babel-node"
   },
   "devDependencies": {
+    "jasmine": "^2.8.0",
+    "nodemon": "^1.14.11",
+    "redux-logger": "^3.0.6",
+    "webpack": "^3.9.1"
+  },
+  "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^7.1",
@@ -24,12 +30,6 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
-    "jasmine": "^2.8.0",
-    "nodemon": "^1.14.11",
-    "redux-logger": "^3.0.6",
-    "webpack": "^3.9.1"
-  },
-  "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "~1.0.0",
     "connect-mongo": "^2.0.1",
