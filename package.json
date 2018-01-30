@@ -12,9 +12,7 @@
     "jasmine": "^2.8.0",
     "nodemon": "^1.14.11",
     "redux-logger": "^3.0.6",
-    "webpack": "^3.9.1"
-  },
-  "dependencies": {
+    "webpack": "^3.9.1",
     "babel": "^6.23.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^7.1",
@@ -30,12 +28,14 @@
     "babel-preset-stage-1": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
-    "babel-register": "^6.26.0",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "debug": "~0.7.4",
     "axios": "^0.17.1",
     "body-parser": "~1.0.0",
     "connect-mongo": "^2.0.1",
     "cookie-parser": "~1.0.1",
-    "debug": "~0.7.4",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-http-proxy": "^1.1.0",
